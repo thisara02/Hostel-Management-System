@@ -1,0 +1,471 @@
+@font-face {
+    font-family: "Catamaran";
+    src: url("Fonts/Catamaran-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    font-family: "Catamaran";
+}
+
+.loder {
+    position: fixed;
+    background-color: white;
+    opacity: 50;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 50vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo-box {
+    background-image: url("resources/logo/LogoMakr\ \(2\).png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80px;
+}
+
+.dropdown-content {
+    display: none;
+    /* background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    right: 0; */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header-button1 {
+    background-color: transparent;
+    border-radius: 40px;
+    border-color: #991b10;
+    border-width: 1;
+}
+
+.header-button1:hover {
+    background-color: #991b10;
+    border-color: #ffffff;
+}
+
+.home-box1 {
+    background-image: url("resources/backgroung_imges/modern-residential-building.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.home-rightImageBox {
+    border-radius: 10px, 0px, 0px, 10px;
+    background-image: url("resources/backgroung_imges/modern-residential-building.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 10px 0px 0px 10px;
+    opacity: 0.6;
+}
+
+.homeBox2RightBox {
+    border-radius: 10px, 0px, 0px, 10px;
+    background-image: url("resources/backgroung_imges/young-friends-hostel.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.Team-img-box1 {
+    background-image: url("resources/teamImages/IMG_20230706_103714_651.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+
+.Team-img-box2 {
+    position: relative;
+    background-image: url("resources/teamImages/my2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+
+.Team-img-box3 {
+    background-image: url("resources/teamImages/IMG_6858.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+
+.Team-img-box4 {
+    background-image: url("resources/teamImages/WhatsApp\ Image\ 2023-06-20\ at\ 14.07.47.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+.Team-img-box5 {
+    background-image: url("resources/teamImages/Image20230916115629.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+
+.Team-img-box2:hover,
+.packageBox:hover {
+    scale: 1.03;
+    transition-duration: 1000ms;
+}
+
+.Team-img-box1:hover {
+    scale: 1.03;
+    transition-duration: 1000ms;
+}
+
+.Team-img-box3:hover {
+    scale: 1.03;
+    transition-duration: 1000ms;
+}
+.Team-img-box4:hover {
+    scale: 1.03;
+    transition-duration: 1000ms;
+}
+.Team-img-box5:hover {
+    scale: 1.03;
+    transition-duration: 1000ms;
+}
+
+.fixed1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0px 0px 18px 18px;
+    opacity: 0;
+    scale: 0;
+}
+
+.Team-img-box1:hover .fixed1 {
+    animation: view;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.Team-img-box2:hover .fixed1 {
+    animation: view;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.Team-img-box3:hover .fixed1 {
+    animation: view;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+.Team-img-box4:hover .fixed1 {
+    animation: view;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+.Team-img-box5:hover .fixed1 {
+    animation: view;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes view {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+
+    50% {}
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+
+}
+
+.animation1 {
+    animation: animate1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate1 {
+    0% {
+        margin-left: -650px;
+    }
+
+    50% {}
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+.animation2 {
+    animation: animate2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate2 {
+    0% {
+        scale: 0;
+    }
+
+    50% {}
+
+    100% {
+        scale: 1;
+    }
+}
+
+@keyframes animate3 {
+    0% {
+        margin-top: 500px;
+    }
+
+    50% {}
+
+    100% {
+        margin-top: -80px;
+    }
+}
+
+@keyframes animate4 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {}
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes headerScrollUp {
+    0% {
+        margin-top: -100px;
+    }
+
+    50% {}
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.addShape1 {
+    background-image: url("resources/shapes/Home-About-BG-Jim-Fahad-Digital.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.packageBox {
+    background-image: url("resources/logo/LogoMakr\ \(3\).png");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+
+.project1 {
+    background-image: url("resources/hostelphotos/1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+}
+
+.project2 {
+    background-image: url("resources/hostelphotos/2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+}
+
+.project3 {
+    background-image: url("resources/hostelphotos/3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+}
+
+.project4 {
+    background-image: url("resources/hostelphotos/hostel7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+}
+.project5 {
+    background-image: url("resources/hostelphotos/5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+}
+.project6 {
+    background-image: url("resources/hostelphotos/hostel6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+}
+.project7 {
+    background-image: url("resources/hostelphotos/4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+}
+.project8 {
+    background-image: url("resources/hostelphotos/hostel8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+}
+
+.p1b {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    opacity: 0;
+    background-color: #f35444;
+    border-color: #ffffff;
+    /* display: none; */
+}
+
+.project1:hover,
+.project2:hover,
+.project3:hover,
+.project4:hover
+.project5:hover
+.project6:hover
+.project7:hover
+.project8:hover {
+    background-color: #151823;
+    opacity: 0.8;
+}
+
+.project1:hover .p1b {
+    animation: view1;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.project2:hover .p1b {
+    animation: view1;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.project3:hover .p1b {
+    animation: view1;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.project4:hover .p1b {
+    animation: view1;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.project5:hover .p1b {
+    animation: view1;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.project6:hover .p1b {
+    animation: view1;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.project7:hover .p1b {
+    animation: view1;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+.project8:hover .p1b {
+    animation: view1;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes view1 {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+
+    50% {}
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+
+}
+
+.counterBox {
+    background-image: url("resources/backgroung_imges/modern-residential-building.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footerLogo {
+    background-image: url("resources/logo/thisara.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    opacity: 0.1;
+}
+
+.ful {
+    list-style: none;
+}
+
+.ful li::before {
+    content: "\2022";
+    color: #f35444;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -2em;
+
+}
